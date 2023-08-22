@@ -3,7 +3,7 @@ import { close, logo, menu } from "../../assets";
 import { navLinks } from "../../utils";
 import style from "./header.module.css";
 const Header = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState("home");
   const toggleHandler = () => {
     setToggle((prevState) => !prevState);
