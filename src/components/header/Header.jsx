@@ -8,7 +8,6 @@ const Header = () => {
   const toggleHandler = () => {
     setToggle((prevState) => !prevState);
   };
-
   const setActiveHandler = (idx) => {
     setActive(idx);
   };
@@ -50,9 +49,9 @@ const Header = () => {
       <div
         className={` ${
           toggle ? "flex" : "hidden"
-        } absolute w-full top-20 p-5 left-0 right-0  ${style.sidebar} ${
-          style.bgBlackPrimary
-        }`}
+        } absolute flex sm:hidden w-full top-20 p-5 left-0 right-0  ${
+          style.sidebar
+        } ${style.bgBlackPrimary}`}
       >
         <img
           src={`${toggle && close}`}
