@@ -49,7 +49,7 @@ const Header = () => {
       <div
         className={` ${
           toggle ? "flex" : "hidden"
-        } absolute flex sm:hidden w-full top-20 p-5 left-0 right-0  ${
+        } absolute flex sm:hidden w-full z-30 top-20 p-5 left-0 right-0  ${
           style.sidebar
         } ${style.bgBlackPrimary}`}
       >
