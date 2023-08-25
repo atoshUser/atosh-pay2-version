@@ -3,10 +3,14 @@ import "./App.css";
 import {
   Billing,
   Business,
+  Clients,
   Contract,
+  Cta,
+  Footer,
   Header,
   Hero,
   Statistics,
+  Testimonials,
 } from "./components";
 const App = () => {
   return (
@@ -16,7 +20,11 @@ const App = () => {
       <Statistics />
       <Contract />
       <Billing />
+      <Clients />
       <Business />
+      <Testimonials />
+      <Cta />
+      <Footer />
     </div>
   );
 };

@@ -10,3 +10,8 @@ export { default as apple } from "./apple.svg";
 export { default as star } from "./star.svg";
 export { default as shield } from "./shield.svg";
 export { default as send } from "./send.svg";
+export {default as quotes} from "./quotes.svg"
+export {default as binance} from "./binance.png"
+export {default as airbnb} from "./airbnb.png"
+export {default as dropbox} from "./dropbox.png"
+export {default as coinbase} from "./coinbase.png"

@@ -3,7 +3,10 @@ import { discount, robot } from "../../assets";
 import style from "./hero.module.css";
 const Hero = () => {
   return (
-    <section className="flex flex-row justify-between relative    md:gap-4 dd:gap-0  bg-primary   dd:justify-between lg:justify-around dd:items-center gap-4 px-5 py-5 md:py-8   lg:px-12 lg:py-6 ">
+    <section
+      id="home"
+      className="flex flex-row justify-between relative    md:gap-4 dd:gap-0  bg-primary   dd:justify-between lg:justify-around dd:items-center gap-4 px-5 py-5 md:py-8   lg:px-12 lg:py-6 "
+    >
       <div>
         <img
           src={robot}

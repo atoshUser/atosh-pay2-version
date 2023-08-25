@@ -3,7 +3,10 @@ import { card } from "../../assets";
 
 const Contract = () => {
   return (
-    <section className="flex flex-col ss:gap-5  md:flex-row md:py-6 md:px-10 bg-primary">
+    <section
+      id="features"
+      className="flex flex-col ss:gap-5  md:flex-row md:py-6 md:px-10 bg-primary"
+    >
       <div className="flex flex-col gap-4 justify-center md:px-6 items-center lg:items-start">
         <p className="text-[20px]  ss:text-[25px] text-center md:text-start font-semibold px-3 ss:py-5 leading-[1.2] md:leading-[50px] lg:leading-[65px]  md:text-[45px]  text-white">
           Bir necha qadamda, oson kontrakt tuzish

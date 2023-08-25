@@ -29,3 +29,7 @@ body {
   flex-direction: column;
   background-color: grey;
 }
+
+a {
+  text-decoration: none;
+}

@@ -31,7 +31,7 @@ const Header = () => {
                 key={item.id}
                 onClick={() => setActiveHandler(item.id)}
               >
-                {item.title}
+                <a href={`#${item.id}`}>{item.title}</a>
               </li>
             );
           })}
